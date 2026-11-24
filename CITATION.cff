@@ -1,0 +1,16 @@
+cff-version: 1.2.0
+message: "If you use this instrument, please cite it as follows."
+title: "Cyber Resilience Index for Healthcare 6.0: Instrument, codebook, and scoring code"
+type: software
+authors:
+  - given-names: Prabhakar
+    family-names: Damor
+version: 1.0.0
+date-released: 2026-11-24
+license: Apache-2.0
+keywords:
+  - cyber resilience
+  - healthcare
+  - governance
+  - Internet of Medical Things
+  - maturity model

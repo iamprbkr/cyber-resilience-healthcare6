@@ -1,0 +1,13 @@
+id,pillar,indicator,score
+Q1,Governance,Decision authority documented,2
+Q2,Governance,Vendor criticality tiered,1
+Q3,Governance,Tabletop exercises,1
+Q4,Governance,Cyber risk framed in clinical terms,2
+Q5,Workforce,Role-specific training,1
+Q6,Workforce,Downtime procedures tested,1
+Q7,Workforce,Incident reporting known by all,2
+Q8,Workforce,Workforce readiness by behaviour,1
+Q9,Technology,IoMT inventoried and segmented,1
+Q10,Technology,AI-assisted threat detection,1
+Q11,Technology,Backups tested with restoration,2
+Q12,Technology,Zero Trust for clinical systems,1

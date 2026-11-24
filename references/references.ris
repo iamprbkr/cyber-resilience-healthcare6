@@ -1,0 +1,316 @@
+TY  - JOUR
+TI  - Unveiling patient-level harms and at-risk clinical groups during hospital cyberattacks: Systematic review of global case studies and social media data
+AU  - Straw, I.
+AU  - Kumar, D.
+AU  - Kweon, S.
+JO  - Journal of Medical Internet Research
+PY  - 2026
+VL  - 28
+SP  - e88257
+DO  - 10.2196/88257
+ER  -
+
+TY  - RPRT
+TI  - The Cyber Resilience Index: Advancing Organizational Cyber Resilience
+AU  - World Economic Forum
+PY  - 2022
+PB  - World Economic Forum, in collaboration with Accenture
+UR  - https://www3.weforum.org/docs/WEF_Cyber_Resilience_Index_2022.pdf
+ER  -
+
+TY  - JOUR
+TI  - Integration of emerging technologies in cybersecurity for healthcare: A systematic review
+AU  - Patra, D.
+AU  - Rajagopalan, N.
+JO  - Computers & Security
+PY  - 2026
+VL  - 161
+SP  - 104763
+DO  - 10.1016/j.cose.2025.104763
+ER  -
+
+TY  - JOUR
+TI  - Cyber resilience and healthcare information systems: A systematic review
+AU  - Pavao, J.
+AU  - Bastardo, R.
+AU  - Pacheco Rocha, N.
+JO  - Procedia Computer Science
+PY  - 2024
+VL  - 239
+SP  - 149
+EP  - 157
+DO  - 10.1016/j.procs.2024.06.157
+ER  -
+
+TY  - JOUR
+TI  - Cybersecurity in healthcare: A systematic review and narrative analysis
+AU  - Kruse, C.
+AU  - Dolezel, D.
+AU  - Shanmugam, R.
+JO  - Applied Clinical Informatics
+PY  - 2026
+VL  - 17
+SP  - 315
+EP  - 328
+DO  - 10.1055/a-2865-4206
+ER  -
+
+TY  - JOUR
+TI  - Cyber-attacks on hospital systems: A narrative review
+AU  - Li, S.
+AU  - Surineni, K.
+AU  - Prabhakaran, N.
+JO  - The American Journal of Geriatric Psychiatry Open Science, Education, and Practice
+PY  - 2025
+VL  - 7
+SP  - 30
+EP  - 39
+DO  - 10.1016/j.osep.2025.03.002
+ER  -
+
+TY  - JOUR
+TI  - One year after a cyberattack: Lessons learned and dosimetric analysis of contingency radiotherapy plans
+AU  - Cases, C.
+AU  - Latorre-Musoll, A.
+AU  - Candela-Juan, C.
+JO  - International Journal of Radiation Oncology Biology Physics
+PY  - 2026
+VL  - 126
+IS  - 2
+SP  - 308
+EP  - 317
+DO  - 10.1016/j.ijrobp.2026.03.030
+ER  -
+
+TY  - JOUR
+TI  - ESTRO framework for radiation oncology departments to mitigate against cyberattacks
+AU  - Peters, S.
+AU  - O'Donovan, A.
+AU  - Bellini, M.
+JO  - Radiotherapy and Oncology
+PY  - 2026
+VL  - 214
+SP  - 111305
+DO  - 10.1016/j.radonc.2025.111305
+ER  -
+
+TY  - JOUR
+TI  - Cybersecurity of linear accelerators in radiation oncology beyond ransomware
+AU  - Alhussan, A.
+AU  - Alhussan, M.
+AU  - Chng, N.
+JO  - Radiotherapy and Oncology
+PY  - 2026
+VL  - 219
+SP  - 111474
+DO  - 10.1016/j.radonc.2026.111474
+ER  -
+
+TY  - JOUR
+TI  - Cybersecurity risks and vulnerabilities in robotic-assisted surgery
+AU  - Fuller, P.
+AU  - Duffie, H.
+AU  - Li, D.
+JO  - Human Factors
+PY  - 2025
+VL  - 68
+IS  - 4
+SP  - 447
+EP  - 469
+DO  - 10.1177/00187208251401735
+ER  -
+
+TY  - JOUR
+TI  - Cybersecurity and emergency medicine: A literary review
+AU  - Kahl, N.
+AU  - Frieden, M.
+AU  - Killeen, J.
+JO  - The Journal of Emergency Medicine
+PY  - 2026
+VL  - 86
+SP  - 52
+EP  - 65
+DO  - 10.1016/j.jemermed.2026.04.004
+ER  -
+
+TY  - JOUR
+TI  - Security challenges and solutions in Internet of Medical Things (IoMT) communication: A review
+AU  - Mohammed, B.
+AU  - Al-Shareeda, M.
+AU  - Hamzah, A.
+JO  - Journal of King Saud University Computer and Information Sciences
+PY  - 2026
+VL  - 38
+IS  - 5
+DO  - 10.1007/s44443-026-00658-x
+ER  -
+
+TY  - JOUR
+TI  - Enhancing Internet of Medical Things security with artificial intelligence: A comprehensive review
+AU  - Messinis, S.
+AU  - Temenos, N.
+AU  - Protonotarios, N.
+JO  - Computers in Biology and Medicine
+PY  - 2024
+VL  - 170
+SP  - 108036
+DO  - 10.1016/j.compbiomed.2024.108036
+ER  -
+
+TY  - JOUR
+TI  - Machine learning for Healthcare-IoT security: A review and risk mitigation
+AU  - Khatun, M. A.
+AU  - Memon, S. F.
+AU  - Eising, C.
+AU  - Dhirani, L. L.
+JO  - IEEE Access
+PY  - 2023
+VL  - 11
+SP  - 145869
+EP  - 145896
+DO  - 10.1109/ACCESS.2023.3346320
+ER  -
+
+TY  - JOUR
+TI  - Navigating medical device safety: Current status, challenges, and future regulatory directions
+AU  - Aimer, O.
+AU  - Baldridge, C.
+JO  - Drug Safety
+PY  - 2025
+VL  - 49
+IS  - 2
+SP  - 163
+EP  - 175
+DO  - 10.1007/s40264-025-01599-6
+ER  -
+
+TY  - JOUR
+TI  - Motivational framing strategies in health care information security training: Randomized controlled trial
+AU  - Keller, T.
+AU  - Warwas, J.
+AU  - Klein, J.
+JO  - JMIR Medical Education
+PY  - 2025
+VL  - 11
+SP  - e73245
+DO  - 10.2196/73245
+ER  -
+
+TY  - JOUR
+TI  - A comprehensive and systematic literature review on intrusion detection systems in the internet of medical things: Current status, challenges, and opportunities
+AU  - Naghib, A.
+AU  - Gharehchopogh, F.
+AU  - Zamanifar, A.
+JO  - Artificial Intelligence Review
+PY  - 2025
+VL  - 58
+IS  - 4
+DO  - 10.1007/s10462-024-11101-w
+ER  -
+
+TY  - JOUR
+TI  - Human in the loop artificial intelligence in healthcare: Applications, outcomes, and implementation challenges
+AU  - Olawade, D.
+AU  - Plabon, S.
+AU  - Ojo, A.
+JO  - International Journal of Medical Informatics
+PY  - 2026
+VL  - 213
+SP  - 106362
+DO  - 10.1016/j.ijmedinf.2026.106362
+ER  -
+
+TY  - JOUR
+TI  - Cybersecurity and privacy risks of generative AI mental-health chatbots: A systematic review and regulatory framework
+AU  - Sawesi, S.
+AU  - Sabbineni, H.
+AU  - Shagamreddy, R.
+JO  - Journal of Multidisciplinary Healthcare
+PY  - 2026
+VL  - 19
+SP  - 1
+EP  - 21
+DO  - 10.2147/JMDH.S581251
+ER  -
+
+TY  - JOUR
+TI  - Adoption of artificial intelligence in healthcare: Survey of health system priorities, successes, and challenges
+AU  - Poon, E.
+AU  - Lemak, C.
+AU  - Rojas, J.
+JO  - Journal of the American Medical Informatics Association
+PY  - 2025
+VL  - 32
+IS  - 7
+SP  - 1093
+EP  - 1100
+DO  - 10.1093/jamia/ocaf065
+ER  -
+
+TY  - JOUR
+TI  - Privacy-preserving multimodal federated learning pipeline for cyber-resilient healthcare systems
+AU  - Tanvir, M.
+AU  - Rabby, H.
+AU  - Arif, M.
+AU  - Nadia, N.
+AU  - Nur, K.
+JO  - PLOS One
+PY  - 2026
+VL  - 21
+IS  - 4
+SP  - e0343669
+DO  - 10.1371/journal.pone.0343669
+ER  -
+
+TY  - JOUR
+TI  - AI-induced cybersecurity risks in healthcare: A narrative review of blockchain-based solutions within a clinical risk management framework
+AU  - Di Palma, G.
+AU  - Scendoni, R.
+AU  - Ferorelli, D.
+JO  - Risk Management and Healthcare Policy
+PY  - 2025
+VL  - 18
+SP  - 3479
+EP  - 3497
+DO  - 10.2147/RMHP.S544523
+ER  -
+
+TY  - JOUR
+TI  - Governing agentic AI in healthcare administration: A risk-tiered framework for human oversight, cybersecurity, and responsible deployment
+AU  - Taylor, J.
+AU  - Masuda, Y.
+AU  - Jinzaki, M.
+JO  - Procedia Computer Science
+PY  - 2026
+VL  - 292
+SP  - 8026
+EP  - 8035
+DO  - 10.1016/j.procs.2026.10.373
+ER  -
+
+TY  - JOUR
+TI  - Governing the rise of AI in healthcare: A comparative governance document and implementation implications across five jurisdictions
+AU  - Chen, J.
+AU  - Pang, M.
+AU  - Qian, W.
+AU  - Zhang, W.
+AU  - Xu, C.
+AU  - He, P.
+JO  - Social Science & Medicine
+PY  - 2026
+VL  - 400
+SP  - 119270
+DO  - 10.1016/j.socscimed.2026.119270
+ER  -
+
+TY  - JOUR
+TI  - From theory to measurement: Development and initial validation of the Resilience in Healthcare Capacities Assessment (RHCA)
+AU  - Ellis, L.
+AU  - Lyng, H.
+AU  - Haraldseid-Driftland, C.
+JO  - Applied Ergonomics
+PY  - 2026
+VL  - 135
+SP  - 104768
+DO  - 10.1016/j.apergo.2026.104768
+ER  -

@@ -1,0 +1,67 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.org/cri_response.schema.json",
+  "title": "Cyber Resilience Index (CRI) response",
+  "description": "A hospital's self-assessment against the twelve CRI indicators.",
+  "type": "object",
+  "required": ["hospital_id", "assessment_date", "scores"],
+  "additionalProperties": false,
+  "properties": {
+    "hospital_id": {
+      "type": "string",
+      "description": "Anonymised identifier; do not use a real hospital name."
+    },
+    "assessment_date": {
+      "type": "string",
+      "format": "date"
+    },
+    "assessor_role": {
+      "type": "string",
+      "description": "Role of the assessor (for rater-reliability analysis)."
+    },
+    "scores": {
+      "type": "object",
+      "description": "One integer 0-5 per indicator, plus the evidence artefact for any score of 5.",
+      "additionalProperties": false,
+      "properties": {
+        "Q1": { "$ref": "#/$defs/score" },
+        "Q2": { "$ref": "#/$defs/score" },
+        "Q3": { "$ref": "#/$defs/score" },
+        "Q4": { "$ref": "#/$defs/score" },
+        "Q5": { "$ref": "#/$defs/score" },
+        "Q6": { "$ref": "#/$defs/score" },
+        "Q7": { "$ref": "#/$defs/score" },
+        "Q8": { "$ref": "#/$defs/score" },
+        "Q9": { "$ref": "#/$defs/score" },
+        "Q10": { "$ref": "#/$defs/score" },
+        "Q11": { "$ref": "#/$defs/score" },
+        "Q12": { "$ref": "#/$defs/score" }
+      },
+      "required": ["Q1", "Q2", "Q3", "Q4", "Q5", "Q6", "Q7", "Q8", "Q9", "Q10", "Q11", "Q12"]
+    }
+  },
+  "$defs": {
+    "score": {
+      "type": "object",
+      "required": ["value"],
+      "additionalProperties": false,
+      "properties": {
+        "value": {
+          "type": "integer",
+          "minimum": 0,
+          "maximum": 5
+        },
+        "evidence": {
+          "type": "string",
+          "description": "Required when value is 5: the named artefact that substantiates the score."
+        }
+      },
+      "allOf": [
+        {
+          "if": { "properties": { "value": { "const": 5 } } },
+          "then": { "required": ["evidence"] }
+        }
+      ]
+    }
+  }
+}

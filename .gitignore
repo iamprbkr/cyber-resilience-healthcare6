@@ -1,0 +1,38 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.venv/
+venv/
+
+# LaTeX / PDF — the manuscript is never part of this repository
+*.tex
+*.pdf
+*.cls
+*.sty
+*.log
+*.aux
+*.out
+*.toc
+*.bbl
+*.blg
+*.synctex.gz
+*.fls
+*.fdb_latexmk
+*.eps
+
+# OS / editor
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Credentials — nothing of this kind may ever be committed
+*.pem
+*.key
+*.p12
+*.pfx
+.env
+.env.*
+*.pem
+id_rsa*
