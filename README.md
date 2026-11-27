@@ -48,6 +48,31 @@ honest about that choice.
 
 ---
 
+## Positioning for global use
+
+This instrument is designed to travel across jurisdictions without carrying one
+country's statistics or legal calendar with it.
+
+- **Behaviour, not paperwork.** Every anchor asks what the hospital *does*; a
+  score of 5 needs a named artefact. The twelve questions are language-neutral
+  and do not depend on a named national framework.
+- **No country-specific data points.** The chapter's figures are EU-wide,
+  multinational, or from a global tracker. This repository contains no national
+  incidence table, and none is needed to score a hospital.
+- **Gates, not a fixed calendar.** The Safe-Care Resilience Readiness Cycle ends
+  each phase when its evidence exists, not after a set number of days. NIS2,
+  GDPR and other statutory clocks appear in the chapter as examples of local
+  duties a hospital must map; they are not built into the score.
+- **Honest priors.** The 0.35/0.30/0.35 weights are author-set priors. The
+  scorer reports sensitivity so a board can see how much the result depends on
+  that choice. Cut-points and dashboard thresholds are defaults to reset against
+  local clinical tolerance.
+- **Proposed, not validated.** The package exists so that anyone can test,
+  translate or challenge the instrument. Field validation against incident
+  outcomes is the next study, not a claim made here.
+
+---
+
 ## Repository structure
 
 ```
@@ -61,11 +86,12 @@ honest about that choice.
 │   ├── score_cri.py
 │   ├── test_score_cri.py
 │   └── worked_example.csv
-├── references/              The 25 cited sources, with DOIs, in two formats
+├── references/              The 30 cited sources, with DOIs or stable URLs, in two formats
 │   ├── references.bib
 │   └── references.ris
 ├── docs/
 │   ├── USAGE.md             How to run, score, and interpret the CRI
+│   ├── CRI-MAP.md           Score bands, four worked examples, use cases and 2026 attributions
 │   └── REPRODUCIBILITY.md   How to reproduce every number in the chapter
 ├── CONTRIBUTING.md
 ├── CITATION.cff
@@ -81,7 +107,8 @@ honest about that choice.
 git clone <repository-url>
 cd cyber-resilience-healthcare6/code
 
-# Run the test suite (reproduces the worked example, floor rule, sensitivity)
+# Run the 9 verified test cases (worked example, floor rule, cut-points,
+# sensitivity, cross-setting profile and determinism)
 python test_score_cri.py
 
 # Score the worked example
@@ -108,8 +135,11 @@ Requires Python 3.8+ with no third-party dependencies.
 
 See [`docs/USAGE.md`](docs/USAGE.md) for the full guide: how to score a real
 hospital, what evidence a score of 5 requires, how to apply the floor rule, and
-how to interpret a maturity level. See [`docs/REPRODUCIBILITY.md`](docs/REPRODUCIBILITY.md)
-to reproduce every figure and table in the chapter's Section 3.
+how to interpret a maturity level. See [`docs/CRI-MAP.md`](docs/CRI-MAP.md) for
+the score-to-band map, four worked examples, the use cases for each stakeholder,
+and the 2026 sources attributed to each claim. See
+[`docs/REPRODUCIBILITY.md`](docs/REPRODUCIBILITY.md) to reproduce every figure
+and table in the chapter's Section 3.
 
 ## Instrument
 
@@ -135,7 +165,7 @@ BibTeX:
   author       = {Prabhakar Damor},
   title        = {Cyber Resilience Index for Healthcare 6.0: Instrument, codebook, and scoring code},
   year         = {2026},
-  version      = {1.0.0},
+  version      = {1.1.0},
   license      = {Apache-2.0},
   note         = {Reproducibility package for the IntechOpen book chapter of the same name}
 }
@@ -148,8 +178,8 @@ See [`CONTRIBUTING.md`](CONTRIBUTING.md).
 
 ## Status and limits
 
-The CRI is **proposed, not validated**. Its weights, cut-points, and phase
-lengths are stated defaults; its propositions are stated with the conditions
+The CRI is **proposed, not validated**. Its weights, cut-points, and cycle
+gates are stated defaults; its propositions are stated with the conditions
 that would falsify them. Prospective validation against real incident outcomes
 is the single most valuable next study. This repository exists so that work can
 be done by anyone, without the authors in the room.

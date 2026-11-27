@@ -314,3 +314,49 @@ VL  - 135
 SP  - 104768
 DO  - 10.1016/j.apergo.2026.104768
 ER  -
+
+TY  - RPRT
+TI  - Health Sector Heartbeat: Cybersecurity Trends and Threats in the Health Sector, Q3 2026
+AU  - Health Information Sharing and Analysis Center (Health-ISAC)
+PY  - 2026
+PB  - Health-ISAC
+UR  - https://health-isac.org/health-isac-health-sector-heartbeat-2026-q3/
+ER  -
+
+TY  - JOUR
+TI  - Cybersecurity Challenges in Hospitals: International Incident Reports Analysis and Expert Validation
+AU  - Rogge, G.
+AU  - Bohnet-Joschko, S.
+JO  - Informatics
+PY  - 2026
+VL  - 13
+IS  - 4
+SP  - 54
+DO  - 10.3390/informatics13040054
+ER  -
+
+TY  - RPRT
+TI  - ENISA Threat Landscape: Health Sector, January 2021 to March 2023
+AU  - European Union Agency for Cybersecurity (ENISA)
+PY  - 2023
+PB  - ENISA
+DO  - 10.2824/163953
+UR  - https://op.europa.eu/en/publication-detail/-/publication/35b998de-2770-11ee-839d-01aa75ed71a1/language-en
+ER  -
+
+TY  - RPRT
+TI  - Cyber Europe 2022: After Action Report. Findings from a Pan-European Cyber Crisis Exercise
+AU  - European Union Agency for Cybersecurity (ENISA)
+PY  - 2022
+PB  - ENISA
+DO  - 10.2824/397622
+UR  - https://op.europa.eu/en/publication-detail/-/publication/6dc3b3f5-e24b-11ed-a05c-01aa75ed71a1/language-en
+ER  -
+
+TY  - RPRT
+TI  - Cybersecurity and Privacy Maturity Assessment and Strengthening for Digital Health Information Systems
+AU  - World Health Organization, Regional Office for Europe
+PY  - 2025
+PB  - WHO Regional Office for Europe
+UR  - https://iris.who.int/handle/10665/380839
+ER  -

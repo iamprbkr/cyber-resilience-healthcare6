@@ -1,0 +1,2 @@
+# Keep line endings stable across platforms so checksums.sha256 stays valid
+* text=auto eol=lf

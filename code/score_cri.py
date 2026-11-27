@@ -40,6 +40,7 @@ PILLARS = {
 WEIGHTS = {"Governance": 0.35, "Workforce": 0.30, "Technology": 0.35}
 # Level bands: <1.0 -> 1; 1.0-1.99 -> 2; 2.0-2.99 -> 3; 3.0-3.99 -> 4; >=4.0 -> 5.
 CUTPOINTS = [(1.0, 2), (2.0, 3), (3.0, 4), (4.0, 5)]
+EPS = 1e-12  # guard against float drift at an exact cut-point
 ALL_QUESTIONS = [q for qs in PILLARS.values() for q in qs]
 
 
@@ -58,7 +59,7 @@ def _raw_level(score):
     # Default to Level 1 (Ad hoc); each cut-point raises the band.
     level = 1
     for bound, lvl in CUTPOINTS:
-        if score >= bound:
+        if score + EPS >= bound:
             level = lvl
     return level
 
